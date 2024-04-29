@@ -1,0 +1,19 @@
+#encabezado{
+    position: relative;
+    top: 0;
+    height: 300px;
+    width:auto;
+}
+.contenedor{
+    background: yellow;
+    display:flex;
+    align-items: center;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#encabezado img {
+    margin-right:0;
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+}
