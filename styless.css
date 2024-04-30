@@ -1,7 +1,12 @@
+body{
+    width: 50%;
+    background-color: blue;
+    border: 10px solid;
+    margin: 0% 30%;
+}
 #encabezado{
     position: relative;
-    top: 0;
-    height: 300px;
+    height: 200px;
     width:auto;
 }
 .contenedor{
@@ -12,21 +17,35 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #encabezado img {
-    margin-right:0;
-    height: 300px;
-    width: 300px;
-    margin-right: 20px;
+    height: 400px;
+    width: 400px;
+    align-self: center;
 }
 #izquierda{
     position: relative;
-    
 }
 .info{
-    background: rgb(202, 199, 199);
-    width: 300px;
-    height: auto;  
+    background: rgb(226, 223, 223);
+    height: 700px;
+    width: 300px;  
     border: 3px solid;
+    position: relative;
 }
 .info h1{
     text-align: center;
+}
+#derecha{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#derecha p{
+    font-size: x-large;
+}
+.sobre_mi{
+    background: yellow;
+    position: absolute;
+    height: 300px;
+    width:400px;
+    margin-left: 400px;
+    bottom: 400px;
 }
