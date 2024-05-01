@@ -4,48 +4,50 @@ body{
     border: 10px solid;
     margin: 0% 30%;
 }
-#encabezado{
+.contenedor{
     position: relative;
     height: 200px;
     width:auto;
-}
-.contenedor{
     background: rgb(250, 250, 249);
     display:flex;
     align-items: center;
     font-size:xx-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#encabezado img {
+.contenedor img {
     height: 400px;
     width: 400px;
     align-self: center;
 }
-#izquierda{
-    position: relative;
-}
 .info{
+    position: relative;
     background: rgb(226, 223, 223);
     height: 700px;
     width: 300px;  
-    border: 3px solid;
+    border: 5px solid;
     position: relative;
 }
 .info h1{
     text-align: center;
 }
-#derecha{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-#derecha p{
+
+.sobre_mi p{
     font-size: x-large;
 }
 .sobre_mi{
+    text-align: center;
     background: yellow;
-    position: absolute;
+    position: relative;
     height: 300px;
     width:400px;
-    margin-left: 400px;
-    bottom: 400px;
+    bottom: 700px;
+    left: 400px;
+}
+.contacto{
+    position: relative;
+    background: violet;
+    left: 400px;
+    bottom: 700px;
+    height: 300px;
+    width:400px;
 }
