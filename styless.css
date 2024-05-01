@@ -3,13 +3,14 @@ body{
     background-color: rgb(207, 196, 196);
     border: 10px solid;
     position: absolute;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
-    margin-left: 500px;
+    margin-left: 30%;
 }
 .contenedor{
     position: relative;
-    height: 200px;
+    height: 20%;
+    width: auto;
     width:auto;
     background: rgb(250, 250, 249);
     display:flex;
@@ -25,8 +26,8 @@ body{
 .info{
     position: relative;
     background: rgb(226, 223, 223);
-    height: 700px;
-    width: 300px;  
+    height: 75%;
+    width:30%;  
     border: 5px solid;
     position: relative;
     margin-left: 5px;
@@ -41,18 +42,18 @@ body{
 .sobre_mi{
     text-align: center;
     position: absolute;
-    height: 300px;
-    width:400px;
-    bottom: 400px;
-    left: 400px;
+    height: 30%;
+    width:40%;
+    bottom:40%;
+    left: 40%;
     background-color: gray;
 }
 .contacto{
     text-align: center;
     position: absolute;
     background: violet;
-    left: 400px;
-    bottom: 50px;
-    height: 250px;
-    width:400px;
+    left: 40%;
+    bottom: 5%;
+    height: 25%;
+    width:40%;
 }
