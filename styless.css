@@ -51,9 +51,13 @@ body{
 .contacto{
     text-align: center;
     position: absolute;
-    background: violet;
+    background: rgb(63, 8, 203);
     left: 40%;
     bottom: 5%;
     height: 25%;
     width:40%;
+}
+.contacto i{
+    margin-bottom: 3%;
+
 }
